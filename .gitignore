@@ -1,0 +1,6 @@
+.env
+.env-local
+./venv/
+_pycache_
+./app/_pycache_
+.pytest_cache
