@@ -10,8 +10,7 @@ def job():
 def main():
     job()
     
-    # schedule.every(1).hours.do(job)
-    schedule.every(1).minute.do(job)
+    schedule.every(1).hours.do(job)
 
     while True:
         schedule.run_pending()
